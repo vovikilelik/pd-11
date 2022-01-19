@@ -4,56 +4,46 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        img {
+            width: 100%;
+        }
+        
+        .gap {
+            gap: 16px;
+        }
+        
+        a:hover {
+            background: white;
+            transform: scale(125%);
+            box-shadow: 0 0 15px 5px white;
+            z-index: 1;
+        }
+    </style>
 </head>
 <body>
-
-<main>
-
-    <h2>Популярно сейчас</h2>
-
-    <div class="row">
-
-        <div class="col">
+    <div class="content vertical-form">
+        <h2>Популярно сейчас</h2>
+        <main class="tile-list tile-list-half gap">
             <a href="/single.html">
                 <img src="img/cover1.png" class="cover" alt="">
             </a>
-        </div>
-        <div class="col">
             <a href="/single.html">
                 <img src="img/cover2.png" class="cover" alt="">
             </a>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col">
             <a href="/single.html">
                 <img src="img/cover3.png" class="cover" alt="">
             </a>
-        </div>
-        <div class="col">
             <a href="/single.html">
                 <img src="img/cover4.png" class="cover" alt="">
             </a>
-        </div>
-    </div>
-
-    <div class="row">
-         <div class="col">
             <a href="/single.html">
                 <img src="img/cover5.png" class="cover" alt="">
             </a>
-        </div>
-        <div class="col">
             <a href="/single.html">
                 <img src="img/cover6.png" class="cover" alt="">
             </a>
-        </div>
+        </main>
     </div>
-
-
-
-</main>
-
 </body>
 </html>

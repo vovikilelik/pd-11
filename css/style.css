@@ -56,12 +56,16 @@ button:hover {
 /* Потом селекторы по классам */
 
 .tile-list {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+}
+
+.tile-list-half {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
 }
 
 .tile-list-half > * {
-    flex: 0 0 50%;
+    align-items: stretch;
     overflow: hidden;
     text-overflow: ellipsis;
 }
