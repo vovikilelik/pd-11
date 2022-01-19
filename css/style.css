@@ -49,6 +49,19 @@ p {
     margin-top: 1em;
 }
 
+.horizontal-form {
+    display: flex;
+}
+
+.horizontal-form > *:not(:first-child) {
+    margin-left: 1em;
+}
+
+a.button {
+    display: block;
+    width: fit-content;
+}
+
 .button,
 button {
     background: #5651ec;
@@ -90,77 +103,18 @@ button:hover {
     text-overflow: ellipsis;
 }
 
-.genre-list .first {
+.green {
     background: #E1F5EA;
 }
 
-.genre-list .second {
+.blue {
     background: #CBEDFF;
-    width: 75%;
 }
 
-.genre-list .third {
+.coffie {
     background: #EEE5BD;
-    width: 50%;
 }
 
-.genre-list .fourth {
+.violet {
     background: #EBDCF9;
-    width: 25%;
-}
-
-/* Потом специальные правила по страничкам */
-
-/* Login*/
-
-.input-login {
-
-
-}
-
-
-/* Страничка жанров и тегов */
-
-.genre-first {
-
-}
-
-.genre-second {
-
-}
-
-.genre-third {
-
-}
-
-.genre-fourth {
-
-}
-
-.tag {
-
-}
-
-/* Страничка популярного */
-
-.cover {
-
-}
-
-/* Страничка подписки  */
-
-.box-green {
-
-}
-
-.box-purple {
-
-}
-
-.text-large {
-
-}
-
-.button-link {
-
 }
