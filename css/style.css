@@ -19,6 +19,22 @@ body {
     
     display: flex;
 }
+
+input[type=text],
+input[type=password] {
+    padding: 12px 8px;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    line-height: 150%;
+}
+
 .content {
     max-width: 350px;
     margin: auto;
@@ -33,13 +49,7 @@ body {
     margin-top: 1em;
 }
 
-input[type=text],
-input[type=password] {
-    padding: 12px 8px;
-    border-radius: 4px;
-    border: 1px solid gray;
-}
-
+.button,
 button {
     background: #5651ec;
     color: white;
@@ -48,6 +58,7 @@ button {
     border-radius: 4px;
 }
 
+.button:hover,
 button:hover {
     background: #7671ff;
     cursor: pointer;
