@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        input[type=text] {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <main>
+    <div class="content vertical-form">
         <h2>Подпишитесь <br> на нашу рассылку</h2>
         <p>Будем присылать хорошие письма, спам присылать не будем</p>
-        <form action="">
-            <input type="text" class="text-input" placeholder="Ваша почта">
-            <p><input type="checkbox" /> Про детективы </p>
-            <p><input type="checkbox" /> Про путешествия </p>
-            <p><input type="checkbox" /> Про фантастику </p>
-            <p><input type="checkbox" /> Про новинки </p>
-        </form>
-        <input type="submit" class="button" value="Отправить">
-    </main>
+        <main>
+            <form class="vertical-form" action="">
+                <input type="text" placeholder="Ваша почта">
+                <p><input type="checkbox" /> Про детективы </p>
+                <p><input type="checkbox" /> Про путешествия </p>
+                <p><input type="checkbox" /> Про фантастику </p>
+                <p><input type="checkbox" /> Про новинки </p>
+                <button type="submit">Отправить</button>
+            </form>
+        </main>
+    </div>
 </body>
 </html>
