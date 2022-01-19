@@ -53,28 +53,45 @@ button:hover {
     cursor: pointer;
 }
 
-p {
-
-}
-
-a {
-
-}
-
-/* Колонки */
-
-.row {
-
-}
-.col {
-
-}
-
-
 /* Потом селекторы по классам */
 
-.text-input {
+.tile-list {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.tile-list-half > * {
+    flex: 0 0 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.genre-list > * {
+    padding: 8px;
+    border-radius: 4px;
+    margin: 8px 0;
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.genre-list .first {
+    background: #E1F5EA;
+}
+
+.genre-list .second {
+    background: #CBEDFF;
+    width: 75%;
+}
+
+.genre-list .third {
+    background: #EEE5BD;
+    width: 50%;
+}
+
+.genre-list .fourth {
+    background: #EBDCF9;
+    width: 25%;
 }
 
 /* Потом специальные правила по страничкам */
